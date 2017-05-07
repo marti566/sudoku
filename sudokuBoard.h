@@ -1,20 +1,19 @@
-#ifndef CELL_H
-#define CELL_H
-
-#include "sudokuCell.h"
+#ifndef BOARD_H
+#define BOARD_H
+//#include "sudokuCell.h"
 using namespace std;
 class Board
 
 {
 
 public:
-Board();
-Board(int board[81]);
-void updateBoard(int xOfChanged, int yOfChanged);
-void getLeastConstrained(int x, int y);
+	Board();
+	Board(int board[81]);
+	void updateBoard(int xOfChanged, int yOfChanged);
+	void getLeastConstrained(int x, int y);
+	void displayBoard();
 protected:
-Cell cells[81];
+	Cell cells[9][9];
 
 };
-
 #endif

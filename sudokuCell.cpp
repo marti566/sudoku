@@ -3,10 +3,11 @@
 using namespace std;
 Cell::Cell()
 {
-	xLoc == 0;
-	yLoc == 0;
-	digit == 0; //zero represents empty
-	squareNum = 0;
+	xLoc = 0;
+	yLoc = 0;
+	digit = 0; //zero represents empty
+	squareX = 0;
+	squareY = 0;
 	for(int i = 0; i < 9; i++)
 	{
 		domain[i] = 1;
@@ -14,12 +15,13 @@ Cell::Cell()
 	numbValInDomain = 9;
 }
 
-Cell::Cell(int newXLoc, int newYLoc, int newDigit, int newSquareNum)
+Cell::Cell(int newXLoc, int newYLoc, int newDigit, int newSquareX, int newSquareY)
 {
 	xLoc = newXLoc;
 	yLoc = newYLoc;
 	digit = newDigit;
-	squareNum = newSquareNum;
+	squareX = newSquareX;
+	squareY = newSquareY;
 	if(digit != 0)
 	{
 		for(int i = 0; i < 9; i++)
@@ -44,17 +46,20 @@ Cell::~Cell()
 
 }
 
-void Cell::setLocation(int newXLoc, int newYLoc)
+void Cell::setLocation(int newXLoc, int newYLoc, int newSquareX, int newSquareY)
 {
 	xLoc = newXLoc;
 	yLoc = newYLoc;
+	squareX = newSquareX;
+	squareY = newSquareY;
 	return;
 }
-void Cell::getLocation(int &currentX, int &currentY, int &currentSquareNum)
+void Cell::getLocation(int &currentX, int &currentY, int &currentSquareX, int &currentSquareY)
 {
 	currentX = xLoc;
 	currentY = yLoc;
-	currentSquareNum = squareNum;
+	currentSquareX = squareX;
+	currentSquareY = squareY;
 	return;
 }
 void Cell::setDigit(int newDigit)
