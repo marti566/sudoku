@@ -550,13 +550,18 @@ bool Board::isFinished()
 void Board::displayBoard()
 {
 	int tempdigit = 0;
+	cout << "   0 1 2 3 4 5 6 7 8" << endl;
 	for(int i = 0; i < 9; i++)
 	{
-
+	  cout << i << " |";
 		for(int j = 0; j < 9; j++)
 		{
 			cells[j][i].getDigit(tempdigit);
-			cout << tempdigit << " ";
+			if(tempdigit != 0)
+			cout << tempdigit << "|";
+			else if(tempdigit == 0)
+			  cout << " |";
+
 		}
 		cout << endl;
 	}

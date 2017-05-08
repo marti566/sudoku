@@ -15,7 +15,7 @@ void humanPlaying(Board, Board);
 void destroy(Variable*);
 int main(int argc, char* argv[])
 {
-	cout <<"welcome, please chose a puzzle diffuclty from 0 to 4: " << endl;
+	cout <<"welcome, please chose a puzzle diffuclty from 0 to 3: " << endl;
 	int input = 0;
 	int count = 0;
 	int i = 0;
