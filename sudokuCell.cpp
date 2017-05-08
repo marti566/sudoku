@@ -1,5 +1,6 @@
 #include "sudokuCell.h"
 #include  <vector>
+#include <cstddef>
 using namespace std;
 Cell::Cell()
 {
@@ -34,7 +35,7 @@ Cell::Cell(int newXLoc, int newYLoc, int newDigit, int newSquareX, int newSquare
 	{
 		for(int i = 0; i < 9; i++)
 		{
-	
+
 			domain[i] = 1;
 		}
 		numbValInDomain = 9;
@@ -78,10 +79,14 @@ void Cell::getDigit(int &currentDigit)
 }
 void Cell::setDomain(int newDomain[9])
 {
+	int count = 0;
 	for(int i =0; i < 9; i++)
 	{
 		domain[i] = newDomain[i];
+		if(newDomain[i] == 1)
+			count++;
 	}
+	numbValInDomain = count;
 }
 void Cell::getDomain(int currentDomain[9])
 {
@@ -90,10 +95,6 @@ void Cell::getDomain(int currentDomain[9])
 		currentDomain[i] = domain[i];
 	}
 
-}
-void Cell::setNumbValInDomain(int newNumbValInDomain)
-{
-	numbValInDomain = newNumbValInDomain;
 }
 void Cell::getNumbValInDomain(int &currentNumbvalInDomain)
 {

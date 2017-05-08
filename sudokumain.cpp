@@ -2,11 +2,15 @@
 #include <fstream>
 #include "sudokuCell.h"
 #include "sudokuBoard.h"
+#include "sudokuVariable.h"
 #include <cstdlib>
 #include <ctime> 
 #include <fstream>
 
-void constraintSatisfaction(Board currentBoard);
+Board CSPRecursion(Board, bool& found);
+Board constraintSatisfaction(Board currentBoard);
+
+void destroy(Variable*);
 int main(int argc, char* argv[])
 {
 	int input = 1;
@@ -45,12 +49,96 @@ int main(int argc, char* argv[])
 	Board board(tempBoard);
 	cout << endl;
 	board.displayBoard();
+	Variable* TempVar;
+	TempVar = board.getMostConstrainedList();
 	
 }
 
-void constraintSatisfaction(Board currentBoard)
+Board constraintSatisfactionStart(Board currentBoard)
 {
+	int newBoard[81];
+	bool found = false;
+	if(true)
+	{
+		Variable* MCLRoot;
+		Variable* LCLRoot;
+		MCLRoot = currentBoard.getMostConstrainedList();
+		while(MCLRoot != NULL)
+		{
+			LCLRoot = currentBoard.getLeastConstrainingList(MCLRoot);
+			while(LCLRoot != NULL)
+			{
 
+				if(currentBoard.forwardChecking(LCLRoot))
+				{
+					currentBoard.getNewBoard(LCLRoot, newBoard);
+					Board updatedBoard(newBoard);
+					Board finalBoard = CSPRecursion(updatedBoard, found);
+					if(found)
+					{
+						destroy(LCLRoot);
+						destroy(MCLRoot);
+						return finalBoard;
+					}
+				}
+				LCLRoot = LCLRoot->getNext();
+			}
+			
+			MCLRoot = MCLRoot->getNext();
+		}
+	}
+	cout << "A solution wasn't found" << endl;
+}
+Board CSPRecursion(Board currentBoard, bool& found)
+{
+	int newBoard[81];
+	if(found == true || currentBoard.isFinished())
+	{
+		found = true;
+		return currentBoard;
+	}
+		
+	else
+	{
+		Variable* MCLRoot;
+		Variable* LCLRoot;
+		MCLRoot = currentBoard.getMostConstrainedList();
+		while(MCLRoot != NULL)
+		{
+			LCLRoot = currentBoard.getLeastConstrainingList(MCLRoot);
+			while(LCLRoot != NULL)
+			{
 
+				if(currentBoard.forwardChecking(LCLRoot))
+				{
+					currentBoard.getNewBoard(LCLRoot, newBoard);
+					Board updatedBoard(newBoard);
+					Board finalBoard = CSPRecursion(updatedBoard, found);
+					if(found)
+					{
+						destroy(LCLRoot);
+						destroy(MCLRoot);
+						return finalBoard;
+					}
+				}
+				LCLRoot = LCLRoot->getNext();
+			}
 
+			MCLRoot = MCLRoot->getNext();
+		}
+	}
+}
+
+void destroy(Variable* element)
+{
+	Variable* f = element;
+	Variable* b = element->getPrev();
+	while(f != NULL)
+	{
+		f = f->getNext();
+		delete f->getPrev();
+	}
+	while(b != NULL)
+		b = b->getPrev();
+	delete b->getNext();
 }

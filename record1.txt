@@ -1,0 +1,2301 @@
+Script started on Mon 08 May 2017 01:06:32 AM PDT
+[01;32mjason@jason-VirtualBox[01;34m ~/Documents/programming/cs471/sudoku $[00m exitstop./a.outcompile.sh [6Pa.outcompile.sh 
+compile Complete
+[01;32mjason@jason-VirtualBox[01;34m ~/Documents/programming/cs471/sudoku $[00m ./compile.sh exit[Kstop./a.out
+
+7 0 0 0 9 8 2 5 0 
+2 0 9 4 0 5 0 0 0 
+0 0 0 7 0 0 8 9 0 
+9 0 0 0 0 0 3 6 0 
+5 0 4 0 0 0 1 0 2 
+0 3 2 0 0 0 0 0 5 
+0 7 3 0 0 6 0 0 0 
+0 0 0 9 0 7 4 0 1 
+0 9 5 2 1 0 0 0 6 
+how many Times do we assing rootPtr
+constrained3
+constrained2
+current List, adding 2
+3 
+in less
+constrained3
+current List, adding 3
+2 3 
+in greater
+current List, adding 3
+2 3 
+in greater
+constrained2
+current List, adding 2
+2 3 3 
+in greater
+current List, adding 2
+2 3 3 
+in less
+constrained3
+current List, adding 3
+2 2 3 3 
+in greater
+current List, adding 3
+2 2 3 3 
+in greater
+current List, adding 3
+2 2 3 3 
+in greater
+current List, adding 3
+2 2 3 3 
+in greater
+constrained2
+current List, adding 2
+2 2 3 3 3 
+in greater
+current List, adding 2
+2 2 3 3 3 
+in greater
+current List, adding 2
+2 2 3 3 3 
+in less
+constrained2
+current List, adding 2
+2 2 2 3 3 3 
+in greater
+current List, adding 2
+2 2 2 3 3 3 
+in greater
+current List, adding 2
+2 2 2 3 3 3 
+in greater
+current List, adding 2
+2 2 2 3 3 3 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+current List, adding 3
+2 2 2 2 3 3 3 
+in greater
+constrained2
+current List, adding 2
+2 2 2 2 3 3 3 3 
+in greater
+current List, adding 2
+2 2 2 2 3 3 3 3 
+in greater
+current List, adding 2
+2 2 2 2 3 3 3 3 
+in greater
+current List, adding 2
+2 2 2 2 3 3 3 3 
+in greater
+current List, adding 2
+2 2 2 2 3 3 3 3 
+in less
+constrained4
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 
+in greater
+constrained4
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+current List, adding 4
+2 2 2 2 2 3 3 3 3 4 
+in greater
+constrained2
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 3 3 3 3 4 4 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 4 4 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 3 3 3 3 3 4 4 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 4 4 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 4 4 
+in less
+constrained5
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+current List, adding 5
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 
+in greater
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in less
+constrained4
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in less
+constrained4
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in greater
+current List, adding 4
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained2
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 2
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained1
+current List, adding 1
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+constrained3
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in greater
+current List, adding 3
+1 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 4 4 4 4 5 
+in less
+X: 6 Y: 8 Value: 0 Constrained: 1
+X: 2 Y: 0 Value: 0 Constrained: 2
+X: 8 Y: 0 Value: 0 Constrained: 2
+X: 4 Y: 1 Value: 0 Constrained: 2
+X: 6 Y: 1 Value: 0 Constrained: 2
+X: 8 Y: 1 Value: 0 Constrained: 2
+X: 2 Y: 2 Value: 0 Constrained: 2
+X: 8 Y: 2 Value: 0 Constrained: 2
+X: 1 Y: 3 Value: 0 Constrained: 2
+X: 1 Y: 4 Value: 0 Constrained: 2
+X: 5 Y: 4 Value: 0 Constrained: 2
+X: 7 Y: 4 Value: 0 Constrained: 2
+X: 6 Y: 5 Value: 0 Constrained: 2
+X: 3 Y: 6 Value: 0 Constrained: 2
+X: 6 Y: 6 Value: 0 Constrained: 2
+X: 7 Y: 6 Value: 0 Constrained: 2
+X: 8 Y: 6 Value: 0 Constrained: 2
+X: 0 Y: 7 Value: 0 Constrained: 2
+X: 2 Y: 7 Value: 0 Constrained: 2
+X: 0 Y: 8 Value: 0 Constrained: 2
+X: 5 Y: 8 Value: 0 Constrained: 2
+X: 1 Y: 0 Value: 0 Constrained: 3
+X: 3 Y: 0 Value: 0 Constrained: 3
+X: 1 Y: 1 Value: 0 Constrained: 3
+X: 7 Y: 1 Value: 0 Constrained: 3
+X: 4 Y: 2 Value: 0 Constrained: 3
+X: 5 Y: 2 Value: 0 Constrained: 3
+X: 2 Y: 3 Value: 0 Constrained: 3
+X: 3 Y: 3 Value: 0 Constrained: 3
+X: 5 Y: 3 Value: 0 Constrained: 3
+X: 8 Y: 3 Value: 0 Constrained: 3
+X: 3 Y: 4 Value: 0 Constrained: 3
+X: 0 Y: 5 Value: 0 Constrained: 3
+X: 3 Y: 5 Value: 0 Constrained: 3
+X: 5 Y: 5 Value: 0 Constrained: 3
+X: 7 Y: 5 Value: 0 Constrained: 3
+X: 0 Y: 6 Value: 0 Constrained: 3
+X: 4 Y: 6 Value: 0 Constrained: 3
+X: 1 Y: 7 Value: 0 Constrained: 3
+X: 4 Y: 7 Value: 0 Constrained: 3
+X: 7 Y: 7 Value: 0 Constrained: 3
+X: 7 Y: 8 Value: 0 Constrained: 3
+X: 0 Y: 2 Value: 0 Constrained: 4
+X: 1 Y: 2 Value: 0 Constrained: 4
+X: 4 Y: 4 Value: 0 Constrained: 4
+X: 4 Y: 5 Value: 0 Constrained: 4
+X: 4 Y: 3 Value: 0 Constrained: 5
+[01;32mjason@jason-VirtualBox[01;34m ~/Documents/programming/cs471/sudoku $[00m exit
+Script done on Mon 08 May 2017 01:06:50 AM PDT

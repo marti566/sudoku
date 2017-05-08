@@ -15,7 +15,6 @@ void setDigit(int newDigit);
 void getDigit(int &currentDigit);
 void setDomain(int newDomain[9]);
 void getDomain(int currentDomain[9]);
-void setNumbValInDomain(int newNumbValInDomain);
 void getNumbValInDomain(int &currentNumbvalInDomain);
 
 protected:
