@@ -195,7 +195,7 @@ Variable* Board::getMostConstrainedList()
 			}
 		}
 	}
-	int x, y = 0;
+/*	int x, y = 0;
 	sortPtr = rootPtr;
 	while(sortPtr != NULL)
 	{
@@ -203,7 +203,7 @@ Variable* Board::getMostConstrainedList()
 		sortPtr->getValue(digit);
 		cout << "X: "<< x << " Y: " << y << " Value: " << digit << " Constrained: " << sortPtr->getConstrained() << endl;
 		sortPtr = sortPtr ->getNext();	
-	}
+	}*/
 	return rootPtr;
 
 }
@@ -268,13 +268,15 @@ Variable* Board::getLeastConstrainingList(Variable* MCLVar)
 			makerPtr->setValue(i+1);
 			sortPtr = rootPtr;
 			if(sortPtr == makerPtr)
+			{
 				continue;
-			while(sortPtr->getNext() != NULL)
+			}
+			while(sortPtr != NULL)
 			{
 				
 				if(makerPtr->getConstrained() >= sortPtr->getConstrained())
 				{
-						//cout << "in greater" << endl;
+					
 					if(sortPtr->getNext() != NULL)
 						sortPtr = sortPtr->getNext();
 					else
@@ -284,11 +286,11 @@ Variable* Board::getLeastConstrainingList(Variable* MCLVar)
 						break;
 					}
 
-						//cout << sortPtr->getConstrained() <<  endl;//TEMPORARY REMOVE 
+
 				}
 				else if(makerPtr->getConstrained() < sortPtr -> getConstrained())
 				{
-						//cout << "in less" << endl; 
+					
 					if(sortPtr->getPrev() == NULL && sortPtr->getNext() == NULL)
 					{
 						sortPtr->setPrev(makerPtr);
@@ -327,27 +329,149 @@ Variable* Board::getLeastConstrainingList(Variable* MCLVar)
 		}
 
 	}
-	sortPtr = rootPtr;
+/*	sortPtr = rootPtr;
 	while(sortPtr != NULL)
 	{
 		sortPtr->getXY(x, y);
 		sortPtr->getValue(digit);
-		cout << "X: "<< x << "Y: " << y << "Value: " << digit << "Constrained: " << sortPtr->getConstrained() << endl;
+		cout << "X: "<< x << " Y: " << y << " Value: " << digit << " Constrained: " << sortPtr->getConstrained() << endl;
 		sortPtr = sortPtr ->getNext();	
 	}
-
+*/
 
 	return rootPtr;
 
 }
 bool Board::forwardChecking(Variable* LCLVar)
 {
+	
+	int localCount, digit, x, y, offsetX, offsetY = 0;
+	int domain[9];
+	LCLVar ->getXY(x,y);
+	LCLVar ->getValue(digit);
+	offsetX = x / 3;
+	offsetY = y / 3;
+	//cout << "checking vert" << endl;
+	for(int i = 0; i < 9; i++)
+	{
+		
+		
+		cells[x][i].getDomain(domain);
+		if(i == y)
+		{
+			
+			continue;
+		}
+		
+		if(domain[digit-1] == 1)
+		{
+			//cout << "how many times" << endl;
+			for(int m = 0;m < 9; m++)
+			{
+				if(domain[m] == 1)
+				{
+					//cout << "domain[m]" << m << endl; 
+					localCount++;
+					if(localCount > 1)
+						break;
+				}
+				
+			}
+			if(!(localCount > 1))
+			{
+				//cout << "false here?1" << endl;
+				return false;
+			}
+			
+		}
+	}
+	//cout << "checking Hori" << endl;
+	for(int i = 0; i < 9; i++)
 
+	{
+		cells[i][y].getDomain(domain);
+		if(i == x)
+			continue;
+		if(domain[digit-1] == 1)
+		{
+			for(int m = 0; m < 9; m++)
+			{
+				if(domain[m] == 1)
+				{
+					localCount++;
+					if(localCount > 1)
+						break;
+
+				}
+				
+			}
+			if(!(localCount > 1))
+			{
+				//cout << "false here?2" << endl;
+				return false;
+			}
+			
+		}
+	}
+
+//cout << "checkingSquare" << endl;
+	for(int i = 0; i < 3; i++)
+	{
+		for(int j = 0; j < 3; j++)
+		{
+			cells[offsetX*3 + j][offsetY*3 +i].getDomain(domain);
+			if(offsetX*3 +j == x && offsetY*3 + i==y)
+				continue;
+			if(domain[digit-1] == 1)
+			{
+				for(int m = 0; m < 9; m++)
+				{
+					if(domain[m] == 1)
+					{
+						localCount++;
+						if(localCount > 1)
+							break;
+
+					}
+
+				}
+				if(!(localCount > 1))
+				{
+					//cout << "false here?3" << endl;
+					return false;
+				}
+				
+			}
+
+		}
+	}
+	//cout << "positive Return" << endl;
+	return true;
 
 }
 void Board::getNewBoard(Variable* NextMove, int newBoard[81])
 {
-
+	int digit = 0;
+	int x, y = 0;
+	NextMove->getXY(x,y);
+	for(int i = 0; i < 9; i++)
+	{
+		for(int j = 0; j < 9; j++)
+		{
+			cells[j][i].getDigit(digit);
+			//cout << digit << " ";
+			newBoard[i*9+j] = digit;
+		}
+		//cout << endl;
+	}
+	NextMove->getValue(digit);
+	newBoard[y*9 + x] = digit;
+	/*for(int i = 0; i < 81; i++)
+	{
+		cout << newBoard[i] << " ";
+		if(i%9 == 0)
+			cout << endl;
+	}*/
 }
 bool Board::isFinished()
 {
@@ -436,4 +560,29 @@ void Board::displayBoard()
 		}
 		cout << endl;
 	}
+}
+int Board::countZeros()
+{
+	int digit, count = 0;
+	for(int i = 0; i < 9; i++)
+	{
+		for(int j = 0; j < 9; j++)
+		{
+			cells[j][i].getDigit(digit);
+			if(digit == 0)
+				count++;
+		}
+	}
+	return count;
+}
+
+void Board::humanBoardUpdate(int x, int y, int digit)
+{
+cells[x][y].setDigit(digit);
+}
+int Board::getValueOfCell(int x, int y)
+{
+	int digit;
+	cells[x][y].getDigit(digit);
+	return digit;
 }

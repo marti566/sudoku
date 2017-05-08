@@ -16,6 +16,9 @@ public:
 	bool forwardChecking(Variable* Move);
 	void getNewBoard(Variable* Move, int newBoard[81]);
 	void displayBoard();
+	int getValueOfCell(int x, int y);
+	void humanBoardUpdate(int x, int y, int digit);
+	int countZeros();
 protected:
 	Cell cells[9][9];
 	bool finished;
