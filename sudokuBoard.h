@@ -1,6 +1,7 @@
 #ifndef BOARD_H
 #define BOARD_H
 #include "sudokuVariable.h"
+#include "sudokuCell.h"
 using namespace std;
 class Board
 
