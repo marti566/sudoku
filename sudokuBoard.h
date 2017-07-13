@@ -1,5 +1,6 @@
 #ifndef BOARD_H
 #define BOARD_H
+#include <vector>
 #include "sudokuVariable.h"
 #include "sudokuCell.h"
 using namespace std;
@@ -12,8 +13,9 @@ public:
 	Board(int board[81]);
 	
 	bool isFinished();
-	Variable* getMostConstrainedList();
-	Variable* getLeastConstrainingList(Variable* variable);
+	bool compareVariables(Variable varOne, Variable varTwo);
+	void getMostConstrainedList(vector<Variable> &MCList);
+	void getLeastConstrainingList(vector<Variable> &LCList);
 	bool forwardChecking(Variable* Move);
 	void getNewBoard(Variable* Move, int newBoard[81]);
 	void displayBoard();

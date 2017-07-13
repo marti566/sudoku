@@ -7,10 +7,6 @@ class Variable
 public:
 Variable();
 ~Variable();
-void setNext(Variable*);
-Variable* getNext();
-void setPrev(Variable*);
-Variable* getPrev();
 void setXY(int newX, int newY);
 void getXY(int &currentX, int &currentY);
 void setValue(int newValue);

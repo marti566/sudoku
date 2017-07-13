@@ -2,7 +2,8 @@
 #include "sudokuCell.h"
 #include "sudokuBoard.h"
 #include "sudokuVariable.h"
-#include <iostream> 
+#include <iostream>
+#include <algorithm> 
 #include <cstddef>
 using namespace std;
 
@@ -99,18 +100,16 @@ Board::Board(int board[81])
 }
 
 
-Variable* Board::getMostConstrainedList()
+void Board::getMostConstrainedList(vector<Variable> &MCList)
 {
 	Variable* makerPtr = NULL;
-	Variable* sortPtr = NULL;
-	Variable* sortPtr2 = NULL;
-	Variable* rootPtr = NULL;
-	Variable* debugPtr = NULL;
 	int digit = 0;
 	int constrained = 0;
 	int domain[9];
 	int debugCount = 0;
 	int debugX, debugY = 0;
+
+
 	for(int i = 0; i < 9; i++)
 	{
 		for(int j = 0; j < 9; j++)
@@ -120,76 +119,32 @@ Variable* Board::getMostConstrainedList()
 			{
 				
 				makerPtr = new Variable;
-				if(rootPtr == NULL && makerPtr != NULL)
-				{
-					//cout << "how many Times do we assing rootPtr" << endl;
-					rootPtr = makerPtr;
-				}
+
 				cells[j][i].getDomain(domain);
+				//most constrained value has the lowest constrained value
 				for(int m = 0; m < 9; m++)
 				{
 					if(domain[m] == 1)
 						constrained++;
 				}
+				
 				makerPtr->setConstrained(constrained);
+				makerPtr->setXY(j, i);
 				constrained = 0;
 
-				makerPtr->setXY(j, i);
-				sortPtr = rootPtr;
-				if(sortPtr == makerPtr)
-					continue;
-				while(sortPtr != NULL)
+				while(true)
 				{
-
-					if(makerPtr->getConstrained() >= sortPtr->getConstrained())
+					if(MCList.size() > 0)
 					{
-						//cout << "in greater" << endl;
-						if(sortPtr->getNext() != NULL)
-							sortPtr = sortPtr->getNext();
-						else
-						{
-							sortPtr->setNext(makerPtr);
-							makerPtr->setPrev(sortPtr);
-							break;
-						}
+						//make a pointer to the comparison function for use as a parameter in the sort function.
+						bool (Board::*comp)(Variable,Variable);
+						MCList.push_back(*makerPtr);
+						sort(MCList.begin(), MCList.end(), comp);
 
-						//cout << sortPtr->getConstrained() <<  endl;//TEMPORARY REMOVE 
 					}
-					else if(makerPtr->getConstrained() < sortPtr -> getConstrained())
+					else
 					{
-						//cout << "in less" << endl; 
-						if(sortPtr->getPrev() == NULL && sortPtr->getNext() == NULL)
-						{
-							sortPtr->setPrev(makerPtr);
-							makerPtr->setNext(sortPtr);
-							rootPtr = makerPtr;
-							break;
-						}
-						else if(sortPtr->getPrev() == NULL && sortPtr->getNext() != NULL)
-						{
-							sortPtr->setPrev(makerPtr);
-							makerPtr->setNext(sortPtr);
-							rootPtr = makerPtr;
-							break;
-						}
-						else if(sortPtr->getPrev() != NULL && sortPtr->getNext() == NULL)
-						{
-							sortPtr2 = sortPtr->getPrev();
-							sortPtr2->setNext(makerPtr);
-							makerPtr->setNext(sortPtr);
-							sortPtr->setPrev(makerPtr);
-							makerPtr->setPrev(sortPtr2);
-							break; 
-						}
-						else if(sortPtr->getPrev() != NULL && sortPtr->getNext() != NULL)
-						{
-							sortPtr2 = sortPtr->getPrev();
-							sortPtr2->setNext(makerPtr);
-							makerPtr->setNext(sortPtr);
-							sortPtr->setPrev(makerPtr);
-							makerPtr->setPrev(sortPtr2);
-							break;
-						}
+						MCList.push_back(*makerPtr);
 					}
 				}
 			}
@@ -590,4 +545,12 @@ int Board::getValueOfCell(int x, int y)
 	int digit;
 	cells[x][y].getDigit(digit);
 	return digit;
+}
+
+bool Board::compareVariables(Variable varOne, Variable varTwo)
+{
+	if(varOn.getConstrained() <= varTwo.getConstrained())
+	return true;
+	else
+	return false;
 }

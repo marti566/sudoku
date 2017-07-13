@@ -1,20 +1,22 @@
 
 #include <iostream>
 #include <fstream>
-#include "sudokuCell.h"
-#include "sudokuBoard.h"
-#include "sudokuVariable.h"
-#include "sudokuDriver.h"
 #include <cstdlib>
 #include <ctime>
 #include <fstream>
 #include <string>
+#include <vector>
+
+#include "sudokuCell.h"
+#include "sudokuBoard.h"
+#include "sudokuVariable.h"
+#include "sudokuDriver.h"
 
 /*TODO
 move the file transfer to the pullPuzzleFromFile [done]
 make it void and only take input from the user [done]
 sanatize input from the user for the puzzle choice/choice for cell input [inc]
-change the linked lists to vectors 
+change the linked lists to vectors: change all variables to vectors
 
 */
 
@@ -38,24 +40,28 @@ Driver::~Driver()
 
 void Driver::run()
 {
-    cout << "welcome, please chose a puzzle diffuclty from 0 to 3: " << endl;
-    int input = 0;
-    string input;
+
+    int difficutly = 0;
+    string rawInput;
     int count = 0;
     int i = 0;
 
-    cin >> input;
-    getline(cin, input);
-    generatePuzzle(input);
-    //fin.seekg(ios_base::beg);
+    //User Introduction
+    cout << "welcome, please chose a puzzle diffuclty from 0 to 3: " << endl;
+    
+    //pulling input from the user
+    getline(cin, rawInput);
+    difficutly = rawInput[0] - '0';
+    generatePuzzle(difficutly);
 
+    //display final board
     cout << "continuing with this board: " << endl;
     Board board(boardArray);
     board.displayBoard();
     cout << endl
          << endl;
     Board finalBoard;
-    cout << "just before constraintStaisfaction" << endl;
+
     //find correct board positions
     finalBoard = constraintSatisfactionStart(board, boardArray);
 
@@ -136,12 +142,12 @@ Board Driver::constraintSatisfactionStart(Board currentBoard, int newBoard[81])
     {
         //DEBUG COMMENT REMOVE ACTIVE
         cout << "in while loop for constraintSatisfaction" << endl;
-        Variable *MCLRoot;
-        Variable *LCLRoot;
-        MCLRoot = currentBoard.getMostConstrainedList();
+        vector<Variable> MCList;
+        vector<Variable> LCList;
+        currentBoard.getMostConstrainedList();
         //DEBUG COMMENT REMOVE ACTIVE
         cout << "after getMostConstrainedList" << endl;
-        while (MCLRoot != NULL)
+        while (MCList.size() > 0)
         {
             LCLRoot = currentBoard.getLeastConstrainingList(MCLRoot);
             while (LCLRoot != NULL)
@@ -165,6 +171,7 @@ Board Driver::constraintSatisfactionStart(Board currentBoard, int newBoard[81])
             }
 
             MCLRoot = MCLRoot->getNext();
+
         }
     }
     cout << "A solution wasn't found" << endl;
@@ -200,6 +207,7 @@ Board Driver::CSPRecursion(Board currentBoard, bool &found)
         while (MCLRoot != NULL)
         {
             //cout << "testing" << endl;
+            //get the list of least constraining values for the most constrained element
             LCLRoot = currentBoard.getLeastConstrainingList(MCLRoot);
             while (LCLRoot != NULL)
             {
